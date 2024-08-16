@@ -1,3 +1,6 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .header{
     padding: 20px;
     border-radius: 5px;
@@ -32,4 +35,23 @@
     color: white;
     background-color: #FCE207;
     border-radius: 4px;
+}
+
+.poster {
+    border-radius: 6px;
+    background-image: url("image/image\ copy.png");
+    width: 100%;
+    height: 454px;
+    position: relative;
+}
+
+.poster button{
+    width: 306px;
+    height: 72px;
+    color: white;
+    background-color: #FCE207;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    border-radius: 6px;
 }
