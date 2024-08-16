@@ -28,8 +28,8 @@
 #HOME {
     color: #FCE207;
 }
-
-.callto button{
+ 
+button{
     width: 158px;
     height: 38px;
     color: white;
@@ -55,3 +55,41 @@
     left: 50px;
     border-radius: 6px;
 }
+
+.content1{
+    height: 100%;
+    padding: 30px;
+    display: grid;
+    justify-content: space-around;
+}
+
+
+.content1 .child1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content1 .child2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.content1 .child2 .cards{
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border: 1px burlywood solid;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.content1 .child1 a{
+    text-decoration: none;
+    width: 68px;
+    height: 26px;
+    color:#FCE207;
+}
+
