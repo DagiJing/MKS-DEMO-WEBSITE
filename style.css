@@ -112,12 +112,51 @@ button{
     text-align:center;
     align-items: center;
     border: 2px solid #FCE207;
-    
     border-radius: 6px;
 }
 
 .cardchild .cards a{
     text-decoration: none;
     color: #FCE207;
+}
+
+.footer{
+    background-color: #404040;
+    border-radius: 6px;
     
+}
+
+.footer .footercontainer{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footercontact{
+    padding: 20px;
+    position: relative;
+    background-color: white;
+
+}
+
+.footer .footercontainer .footercontact hr{
+
+    border-top-color: #FCE207;
+}
+
+.footer .footercontainer .footercontact .contactinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emailcontact{
+    display: grid;
+    gap: 20px;
+}
+.devcredit{
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
 }
