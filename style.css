@@ -61,6 +61,7 @@ button{
     padding: 30px;
     display: grid;
     justify-content: space-around;
+    text-align:center;
 }
 
 
@@ -93,3 +94,30 @@ button{
     color:#FCE207;
 }
 
+.cardchild {
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.cardchild .cards{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+    align-items: center;
+    border: 2px solid #FCE207;
+    
+    border-radius: 6px;
+}
+
+.cardchild .cards a{
+    text-decoration: none;
+    color: #FCE207;
+    
+}
